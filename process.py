@@ -8,7 +8,7 @@ import logging
 nlp = spacy.load("en_core_web_sm")
 
 # Set OpenAI API key
-openai.api_key = "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"
+openai.api_key = "you_api_key"
 
 # Function to clean and preprocess text
 def clean_text(text):

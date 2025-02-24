@@ -146,9 +146,9 @@ def process_excel(file_path, column1, column2, classifiers):
 
 # Main execution
 if __name__ == "__main__":
-    file_path = "C:\\Users\\hp\\Desktop\\VetologyPresentation\\Project Files\\canine_abdomen_scoring.xlsx"
-    column1 = "Findings (original radiologist report)"
-    column2 = "Conclusions (original radiologist report)"
+    file_path = "path_of_the _file"
+    column1 = "Column1_name"
+    column2 = "Column2_name"
     classifiers = ["gastritis", "ascites", "colitis", "liver_mass", "pancreatitis", 
                    "microhepatia", "small_intestinal_obstruction", "splenic_mass", 
                    "splenomegaly", "hepatomegaly"]
